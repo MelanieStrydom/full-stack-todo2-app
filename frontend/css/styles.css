@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+input {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 30px;
+}
+
+.submit-btn {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.todo-items {
+    width: 400px;
+    margin: 10px auto;
+}
+
+.todo-items li {
+    list-style-type: none;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+
+.btns button {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+}
