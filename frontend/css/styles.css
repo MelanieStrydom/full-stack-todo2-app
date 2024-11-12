@@ -26,6 +26,7 @@ input {
     padding: 10px;
     border-radius: 30px;
     cursor: pointer;
+    background-color: coral;
 }
 
 .todo-items {
@@ -41,6 +42,7 @@ input {
     display: flex;
     justify-content: space-between;
     font-size: 30px;
+    background-color: rgb(165, 243, 165);
 }
 
 
@@ -49,4 +51,9 @@ input {
     padding: 5px;
     border-radius: 30px;
     cursor: pointer;
+    background-color: rgb(149, 225, 250);
+}
+
+body {
+    background-color: lightgray
 }
